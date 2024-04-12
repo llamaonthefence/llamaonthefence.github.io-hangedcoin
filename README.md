@@ -159,7 +159,8 @@ function detectCollision() {
 1. Naming convention is important 
 2. Break problem into small steps 
 3. Pay attention to details as even a typo affects whether code runs
-4. Growth mindset - ALL THE TIME 
+4. Growth mindset - ALL THE TIME
+5. Github is your friend - lots more to learn 
 
 ***
 

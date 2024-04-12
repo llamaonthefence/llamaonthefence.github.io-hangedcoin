@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", "sans-serif";
+  }
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    border: solid 1px grey;
+}
+
+.progressbar .inner-meter {
+    height: 15px;
+    width: 100%;
+    animation: progressbar-countdown; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+}
+
+@keyframes progressbar-countdown {
+    0% {
+        width: 100%;
+        background-color: green;
+    }
+
+    100% {
+        width: 0%;
+        background-color: red;
+    }
+};

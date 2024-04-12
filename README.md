@@ -31,7 +31,7 @@ This is a game where the user competes against time to solve the hangman puzzle.
 3. Guess the letters present in the secret word. 
 4. Aim to make less than 6 wrong guesses before the time runs out. 
 
-[Play the game](https://raw.githubusercontent.com/llamaonthefence/Hanged/dev/index.html?token=GHSAT0AAAAAACOI2C4G43Z7B4KTTJZFBB6SZQZOOCQ)
+[Play the game](https://llamaonthefence.github.io/llamaonthefence.github.io-hangedcoin/)
 
 ***
 
@@ -74,3 +74,4 @@ This is a game where the user competes against time to solve the hangman puzzle.
 * Icons - [Flaticon](https://www.flaticon.com/)
 * Stock images - [Freepik](https://www.freepik.com/) 
 * Various online dictionaries - [Merriam-Webster](https://www.merriam-webster.com/dictionary), [Dicitonary.com](https://www.dictionary.com/), [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english)
+* Emoji - [Emojipedia](https://emojipedia.org/curly-loop)

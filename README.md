@@ -31,15 +31,15 @@ This is a game where the user competes against time to solve the hangman puzzle.
 3. Guess the letters present in the secret word. 
 4. Aim to make less than 6 wrong guesses before the time runs out. 
 
-[Play the game](https://llamaonthefence.github.io/llamaonthefence.github.io-hangedcoin/)
+[Play the game](https://llamaonthefence.github.io/llamaonthefence.github.io-hangedcoin/) 🎉
 
 ***
 
 ## Process
-**Game Logic**
+#### Game Logic
 <img src="images/for_readme/J-01-drawio.png" alt="Mobile Gameplay" width="90%">
 
-**UI Sketch**
+#### UI Sketch
 <img src="images/for_readme/J-02-figma.png" alt="Mobile Gameplay" width="90%">
 
 ***

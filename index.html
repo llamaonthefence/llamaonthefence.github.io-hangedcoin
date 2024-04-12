@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanged: A Hangman Game</title>
+    <script defer src="js/word-list-eas.js"></script>
+    <script defer src="js/word-list-int.js"></script>
+    <script defer src="js/word-list-har.js"></script>
+    <script defer src="timer/hangman-timer.js"></script>
+    <script defer src="js/main.js"></script>
+    
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="timer/timer-style.css" type="text/css"/>
+</head>
+<body>
+    <nav>
+        <div class="navcontainer">
+            <div class="navtitle"><h2 id="game-title">Hanged</h2></div>
+            <div id="progressbar-placeholder">
+                
+                <div class="timer-container">
+                    <p>Time left: &nbsp;</p>
+                    <div class="progressbar" id="timer">
+                        <div class="inner-meter"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="navbtns">
+                <button id="btn-pause">Pause</button>
+                <button id="btn-reset">Reset</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="difficulty-modal">
+        <div class="content">
+            <h4>Select your difficulty level</h4>
+            <div class="difficulty-selection">
+            <button class="levels-btn" id="easy">
+                <h5>Easy</h5>
+                <img src="images/level-easy.png" alt="Icon for easy level">
+            </button>
+            <button class="levels-btn" id="intermediate">
+                <h5>Intermediate</h5>
+                <img src="images/level-intermediate.png" alt="Icon for intermediate level">
+            </button>
+            <button class="levels-btn" id="hard">
+                <h5>Hard</h5>
+                <img src="images/level-hard.png" alt="Icon for hard level">
+            </button>
+        </div>
+        </div>
+    </div>
+    
+    <div class="game-modal">
+        <div class="content">
+            <img src="images/sad.png" alt="Sad face, you lost">
+            <h4>Game Over!</h4>
+            <p>The correct word was: <b></b></p>
+            <button class="play-again">Play again!</button>
+        </div>
+    </div>
+
+    <div class="pause-modal">
+        <div class="pause-content">
+            <h4>Game Paused.</h4>
+            <img src="images/pause_modal.png" alt="Icon for games paused">
+            <p>Click "Resume" to continue your game.</p>
+            <button id="resume-btn">Resume</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hangman-box">
+            <img id="gallows-img" src="images/gallows_00.png" alt="A guillotine">
+            <h1>HANGED</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-letters">
+            <!-- <li class="letter"></li> -->
+            <!-- <li class="letter"></li> -->
+            <!-- <li class="letter"></li> -->
+            </ul>
+            <h5 class="hint-text">
+                Hint:
+                <b>Example hint sentences</b>
+            </h5>
+            <h4 class="guesses-text">
+                Incorrect Guesses:
+                <b> &nbsp; &nbsp; / 6 </b>
+            </h4>
+            <div id="letterbox"></div>
+        </div>
+    </div>
+
+</body>
+</html>

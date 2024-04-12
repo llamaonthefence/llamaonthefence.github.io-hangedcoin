@@ -151,7 +151,8 @@ function detectCollision() {
 ## Possible improvements 
 1. Game experience. It is not very fun now 
 2. Better points system  
-3. Hangman looping of array words doesn't repeat 
+3. Hangman looping of array words doesn't repeat
+4. Hangman words need not be hard-coded. Use API
 
 ***
 

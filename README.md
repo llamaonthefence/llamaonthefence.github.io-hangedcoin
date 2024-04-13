@@ -176,9 +176,9 @@ function detectCollision() {
 ![GIF Snapshot of bonus game](images/for_readme/hanged_bonus_gif_croped.gif)
 
 **Codes:**
-[Bonus Game #1 - Easy](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d1_project_01_game_04_bonus_eas)
-[Bonus Game #2 - Intermediate](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d2_project_01_game_05_bonus_int)
-[Bonus Game #3 - Hard](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d3_project_01_game_06_bonus_har)
+* [Bonus Game #1 - Easy](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d1_project_01_game_04_bonus_eas)
+* [Bonus Game #2 - Intermediate](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d2_project_01_game_05_bonus_int)
+* [Bonus Game #3 - Hard](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d3_project_01_game_06_bonus_har)
 
 ***
 

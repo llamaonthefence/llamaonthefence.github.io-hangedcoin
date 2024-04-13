@@ -101,8 +101,10 @@ const handleDifficultySelection = (difficulty,event) => {
 
 ```
 ```
-- Detecting collision from top of basket - recalculated for collision detection between falling coins and full area of basket. 
-- Top left hand anchor point required careful attention to calculation and visualising to get it right.
+- Detecting collision from top of basket was problematic:
+  Recalculated for collision detection between falling coins and full area of basket. 
+- Basket kept going out of frame - infinite movement along x-axis:
+  Top left hand anchor point required careful attention to calculation and visualising to get it right.
 
 function detectCollision() {
     const basketTop = canvas.height - dHeight * 0.9; 

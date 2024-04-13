@@ -157,11 +157,12 @@ function detectCollision() {
 ***
 
 ## Things I learned
-1. Naming convention is important 
-2. Break problem into small steps 
-3. Pay attention to details as even a typo affects whether code runs
-4. Growth mindset - ALL THE TIME
-5. Github is your friend - lots more to learn 
+1. Naming convention is important. Helps people to understand the codes
+2. Investigate all console errors, not only the obviously "consequential" ones that are causing immediate errors  
+3. Break problem into small steps 
+4. Pay attention to details as even a typo affects whether code runs
+5. Growth mindset - ALL THE TIME
+6. Github is your friend - lots more to learn 
 
 ***
 

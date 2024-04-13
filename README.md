@@ -7,12 +7,15 @@ This is an experimental game where the user competes against time to solve the h
 ***
 
 ## Screenshots
-#### Initial view: level picker
+#### Initial view - level picker
 ![PC Level Picker](images/for_readme/P-01-lvl-selector.png)
 #### Game screen
 ![PC Game Screen](images/for_readme/P-02-game.png)
 #### Game paused
 ![PC Game Paused](images/for_readme/P-03-pause.png)
+#### Game won/lost prompt 
+![PC Game Won](images/for_readme/P-04-win.png)
+
 #### Mobile view
 <img src="images/for_readme/M-01-lvl-selector-02.png" alt="Mobile Level Picker" width="40%">
 <img src="images/for_readme/M-02-game-02.png" alt="Mobile Gameplay" width="40.2%">
@@ -151,18 +154,16 @@ function detectCollision() {
 ## Possible improvements 
 1. Game experience. It is not very fun now 
 2. Better points system  
-3. Hangman looping of array words doesn't repeat
-4. Hangman words need not be hard-coded. Use API
+3. Hangman looping of array words doesn't repeat 
 
 ***
 
 ## Things I learned
 1. Naming convention is important. Helps people to understand the codes
-2. Investigate all console errors, not only the obviously "consequential" ones that are causing immediate errors  
+2. Investigate all console errors, not only the obviously "consequential" ones that are causing immediate errors
 3. Break problem into small steps 
 4. Pay attention to details as even a typo affects whether code runs
-5. Growth mindset - ALL THE TIME
-6. Github is your friend - lots more to learn 
+5. Growth mindset - ALL THE TIME 
 
 ***
 
@@ -175,9 +176,9 @@ function detectCollision() {
 ![GIF Snapshot of bonus game](images/for_readme/hanged_bonus_gif_croped.gif)
 
 **Codes:**
-* [Bonus Game #1 - Easy](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d1_project_01_game_04_bonus_eas)
-* [Bonus Game #2 - Intermediate](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d2_project_01_game_05_bonus_int)
-* [Bonus Game #3 - Hard](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d3_project_01_game_06_bonus_har)
+[Bonus Game #1 - Easy](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d1_project_01_game_04_bonus_eas)
+[Bonus Game #2 - Intermediate](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d2_project_01_game_05_bonus_int)
+[Bonus Game #3 - Hard](https://github.com/llamaonthefence/Hanged/tree/48372aa9736cb615eeb2e7179ec80c571690061e/unit1_hw/tara/Homework/Unit_01/w06d3_project_01_game_06_bonus_har)
 
 ***
 

@@ -2,7 +2,7 @@
 
 This is an experimental game where the user competes against time to solve the hangman puzzle.  
 
-**Unfinished:** Additional pop-up bonus coin-drop portion. 
+**Unfinished:** Integrating additional pop-up bonus coin-drop portion. 
 
 ***
 
